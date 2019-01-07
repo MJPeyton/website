@@ -126,7 +126,7 @@ h1, h2, .frame {
 }
 
 .picback {
-    background-image: url("/img/mountaincropfade.jpg");
+    background-image: url("/img/mountaincropfade.webp");
     background-position: center center;
     background-size: cover;
     padding: 0 0 200px 0;
