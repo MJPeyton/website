@@ -27,14 +27,17 @@ nav a {
 </div>
 <div class="dotback">
 	<div class="cardstack">
-		<div class="card" data-aos="fade-up">
+
+	<h2>Data Visualization</h2>
+
+	<div class="card" data-aos="fade-up">
 			<div class="redimg">
-			<a href="/northwestern_web.php"><img src="/img/redesign.png"></a>
+			<a href="/survey.php"><img src="/img/survey.png"></a>
 			</div>
 			<div class="cardtext">
-				<h3>Website Redesign</h3>
-				<p>I oversaw the redesign of the Master of Science in Communication program's website for Northwestern University.</p>
-				<a href="/northwestern_web.php" class="buttonred" style="text-align: center;">View Project</a>
+				<h3>Interactive Survey Report</h3>
+				<p>I created an interactive dashboard for the dean's office to explore the results of a school-wide graduate student survey.</p>
+				<a href="/survey.php" class="buttonred" style="text-align: center;">View Project</a>
 			</div>
 		</div>
 
@@ -51,12 +54,25 @@ nav a {
 
 		<div class="card" data-aos="fade-up">
 			<div class="redimg">
-			<a href="/survey.php"><img src="/img/survey.png"></a>
+				<a href="/d3vis.php"><img src="/img/graph.png"></a>
+				</div>
+				<div class="cardtext">
+					<h3>D3 Visualizations</h3>
+					<p>I have begun learning how to create data visualizations in D3.</p>
+					<a href="/d3vis.php" class="buttonred" style="text-align: center;">View Project</a>
+			</div>
+		</div>
+
+		<h2 data-aos="fade-up">Marketing and Design</h2>
+
+		<div class="card" data-aos="fade-up">
+			<div class="redimg">
+			<a href="/northwestern_web.php"><img src="/img/redesign.png"></a>
 			</div>
 			<div class="cardtext">
-				<h3>Interactive Survey Report</h3>
-				<p>I created an interactive dashboard for the dean's office to explore the results of a school-wide graduate student survey.</p>
-				<a href="/survey.php" class="buttonred" style="text-align: center;">View Project</a>
+				<h3>Website Redesign</h3>
+				<p>I oversaw the redesign of the Master of Science in Communication program's website for Northwestern University.</p>
+				<a href="/northwestern_web.php" class="buttonred" style="text-align: center;">View Project</a>
 			</div>
 		</div>
 
@@ -71,16 +87,7 @@ nav a {
 			</div>
 		</div>
 
-				<div class="card" data-aos="fade-up">
-			<div class="redimg">
-			<a href="/d3vis.php"><img src="/img/graph.png"></a>
-			</div>
-			<div class="cardtext">
-				<h3>D3 Visualizations</h3>
-				<p>I have begun learning how to create data visualizations in D3.</p>
-				<a href="/d3vis.php" class="buttonred" style="text-align: center;">View Project</a>
-			</div>
-		</div>
+
 		
 	</div>
 </div>

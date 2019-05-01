@@ -12,7 +12,7 @@
 <!-- End nav.php INCLUDE -->
 </header>
 <body>
-<img data-aos="zoom-in" style="width: 300px; height: 300px; box-shadow: none; display: block; margin-right: auto; margin-left: auto;" src="/img/headshot.png">
+<img style="width: 300px; height: 300px; box-shadow: none; display: block; margin-right: auto; margin-left: auto;" src="/img/headshot.png">
 <h1 style="text-align: center;">Hi, I'm Matt Peyton</h1>
 <h2>I am a marketer who connects people with the tools they need to become successful.</h2>
 <p>Throughout my career some of those tools have been literal, like cranes and heavy construction equipment, while others have been figurative, like a master’s degree from Northwestern University. No matter the setting, I have succeeded in educating prospective customers about complex products that represent a significant investment.</p>
