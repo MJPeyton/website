@@ -12,15 +12,16 @@
   <!-- End nav.php INCLUDE -->
 </header>
 <body>
-  <img data-aos="zoom-in" class="icon" src="/img/redesign.png" alt="Redesign Icon">
+<div class="dotback">
   <h1 style="text-align: center;">Website Redesign</h1>
   <h2>Tackling an unresponsive and confusing website on the fly for the Northwestern University Master of Science in Communication program.</h2>
+  <img class="feature" data-aos="zoom-in"src="/img/mschomecapture.png" alt="Redesign Icon">
   <p>In late 2015 I was hired at Northwestern University’s Master of Science in Communication program to coordinate marketing and admissions. The program, which had a 35-year history, was the first professional master's degree in communication in the country.</p>
   <p>The goal of myself and the Director of Enrollment Management and Strategic Initiatives was to revamp our marketing efforts to move away from radio and out-of-home advertisements toward more targeted digital display and search ads.</p>
   <div class="dark" data-aos="fade-up">
               <h3>Results</h3>
               <p>Since its launch, the new site has seen a 60% increase in time spent on site with a 30% decrease in bounce rate. Pages viewed per session also increased by 54%.</p>
-              <img src="/img/bouncerate.png" alt="Bounce rate between old website and new"/>
+              <img style="max-width: 800px;" src="/img/bouncerate.png" alt="Bounce rate between old website and new"/>
             </div>
   <div data-aos="fade-up">
   <h3>Challenges</h3>
@@ -53,6 +54,7 @@
             <li>Third, we outlined the experience of someone going from deciding to apply to the program, prioritizing what they would need to know.
             </ul></p>
             </div>
+      </div>
             <script>
               var $hamburger = $(".hamburger");
               $hamburger.on("click", function(e) {

@@ -6,6 +6,9 @@
 <?php require_once ('head.php'); ?>
 <!-- End head.php INCLUDE -->
 <style>
+nav {
+	background: none;
+}
 nav a {
 	color: white;
 }
@@ -29,11 +32,10 @@ nav a {
 	<div class="cardstack">
 		<div class="card" data-aos="fade-up">
 			<div class="redimg">
-			<a href="/northwestern_web.php"><img src="/img/redesign.png"></a>
+			<a href="/northwestern_web.php"><img src="/img/mschomecapture.png"></a>
 			</div>
 			<div class="cardtext">
 				<h3>Website Redesign</h3>
-				<p>I oversaw the redesign of the Master of Science in Communication program's website for Northwestern University.</p>
 				<a href="/northwestern_web.php" class="buttonred" style="text-align: center;">View Project</a>
 			</div>
 		</div>
