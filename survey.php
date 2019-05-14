@@ -12,9 +12,11 @@
   <!-- End nav.php INCLUDE -->
 </header>
 <body>
-<img data-aos="zoom-in" class="icon" src="/img/survey.png" alt="Survey Icon">
+
   <h1 style="text-align: center;">Interactive Survey Report</h1>
   <h2>I created an interactive dashboard for the dean's office to explore the results of a school-wide graduate student survey.</h2>
+  <img  class="feature" data-aos="zoom-in" src="/img/gradanalysiscomp.png" alt="Survey Icon">
+  <br>
   <div class="dark" data-aos="fade-up">
               <h3>Results</h3>
               <p>The dashboard I created made it easy for the dean and her office to see the results of a comprehensive survey sent to over 1,000 graduate students across the entire School of Communication.</p>

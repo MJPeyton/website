@@ -18,23 +18,23 @@ nav a {
 </style>
 </head>
 <div class="picback">
-<header class="header-container">
-<!-- Begin nav.php INCLUDE -->
-<?php require_once 'nav.php'; ?>
-<!-- End nav.php INCLUDE -->
-</header>
-<body>
-
-<h1 style="text-shadow: 3px 3px 6px #000000;">Hi, I'm Matt.</h1>
-<h2 style="font-weight: 100; text-shadow: 3px 3px 6px #000000;">I use design and data to communicate big ideas.</h2>
+	<header class="header-container">
+		<!-- Begin nav.php INCLUDE -->
+		<?php require_once 'nav.php'; ?>
+		<!-- End nav.php INCLUDE -->
+	</header>
+	<body>
+		<h1 style="text-shadow: 3px 3px 6px #000000;">Hi, I'm Matt.</h1>
+		<h2 style="font-weight: 100; text-shadow: 3px 3px 6px #000000;">I use design and data to communicate big ideas.</h2>
 </div>
 
-<h2 style="text-align: center; font-size: 48px;">Professional Work</h2>
+<br>
+<h3 style="text-align: center; font-size: 40px;">My Work</h3>
+<h3 style="text-align: center;">Includes professional, consulting, and just-for-fun projects.</h3>
 
 <div class="cardstack">
-
-	<a href="/northwestern_web.php">
-			<div class="card" data-aos="fade-up" href="/dashboard.php">
+	<a href="/dashboard.php">
+			<div class="card" data-aos="fade-up">
 				<img class="cardimg" src="/img/tabdashboard.png">
 				<div class="cardtext">
 					<h3>Admissions Dashboard</h3>
@@ -43,8 +43,8 @@ nav a {
 			</div>
 		</a>
 
-		<a href="/northwestern_web.php">
-			<div class="card" data-aos="fade-up" href="/survey.php">
+		<a href="/survey.php">
+			<div class="card" data-aos="fade-up">
 				<img class="cardimg" src="/img/gradanalysiscomp.png">
 				<div class="cardtext">
 					<h3>Interactive Survey Report</h3>
@@ -53,9 +53,9 @@ nav a {
 			</div>
 		</a>
 
-	<a href="/northwestern_web.php">
-			<div class="card" data-aos="fade-up" href="/northwestern_web.php">
-				<img class="cardimg" src="/img/mschomecapture.png">
+	<a href="/evanston.php">
+			<div class="card" data-aos="fade-up">
+				<img class="cardimg" src="/img/EvPoster.png">
 				<div class="cardtext">
 					<h3>Similar Cities Poster</h3>
 					<p>View Project ><p>
@@ -64,7 +64,7 @@ nav a {
 		</a>
 
 		<a href="/northwestern_web.php">
-			<div class="card" data-aos="fade-up" href="/northwestern_web.php">
+			<div class="card" data-aos="fade-up">
 				<img class="cardimg" src="/img/mschomecapture.png">
 				<div class="cardtext">
 					<h3>Website Redesign</h3>
@@ -73,10 +73,8 @@ nav a {
 			</div>
 		</a>
 
-<h2 style="text-align: center; font-size: 48px;">Professional Work</h2>
-
 		<a href="/northwestern_web.php">
-			<div class="card" data-aos="fade-up" href="/northwestern_web.php">
+			<div class="card" data-aos="fade-up">
 				<img class="cardimg" src="/img/nbavis.png">
 				<div class="cardtext">
 					<h3>NBA Trade Network</h3>
@@ -86,7 +84,7 @@ nav a {
 		</a>
 
 		<a href="/northwestern_web.php">
-			<div class="card" data-aos="fade-up" href="/northwestern_web.php">
+			<div class="card" data-aos="fade-up">
 				<img class="cardimg" src="/img/sotuvis.png">
 				<div class="cardtext">
 					<h3>State of the Union Text</h3>
@@ -96,7 +94,7 @@ nav a {
 		</a>
 
 		<a href="/northwestern_web.php">
-			<div class="card" data-aos="fade-up" href="/northwestern_web.php">
+			<div class="card" data-aos="fade-up">
 				<img class="cardimg" src="/img/ctavis.png">
 				<div class="cardtext">
 					<h3>CTA Bus Routes</h3>

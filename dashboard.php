@@ -12,9 +12,10 @@
   <!-- End nav.php INCLUDE -->
 </header>
 <body>
-<img data-aos="zoom-in" class="icon" src="/img/funnel.png" alt="Funnel Icon">
+
   <h1 style="text-align: center;">Admissions Dashboard</h1>
   <h2>I designing an intuitive dashboard that allows stakeholders to independently parse the information they need quickly.</h2>
+  <img data-aos="zoom-in" class="feature" src="/img/tabdashboard.png" alt="Funnel Icon">
   <p>When Northwestern University’s Master of Science in Communication program hired me in 2015 to coordinate admissions, there was plenty of historical data stored in Salesforce, but no one knew how to parse it or use it to make decisions.</p>
   <p>One of my first tasks was to design a dashboard that showed the program’s current admissions numbers though the funnel while also comparing to previous years for context. I also added filters so that everyone from the director and to student service staff members could easily compare numbers for different populations.
   <div class="dark" data-aos="fade-up">

@@ -30,12 +30,16 @@ bg gray: #F5F5F5
     transition: all .25s ease-in-out;
 }
 
+.logo a {
+    color: white;
+}
+
 .logo a:hover {
     text-decoration: underline;
 }
 
 nav {
-    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    background: linear-gradient(135deg, #000046 0%, #1CB5E0 100%);
 }
 
 nav ul {
@@ -47,7 +51,7 @@ nav ul {
 }
 
 nav a {
-    color: black;
+    color: white;
     text-shadow: 2px 2px 3px #0000003e;
     text-decoration: none;
 }
@@ -64,7 +68,7 @@ nav li {
 }
 
 nav li:hover {
-    background-color: #f9585b;
+    background-color: #193770;
 }
 
 body {
@@ -121,18 +125,16 @@ h1, h2, .frame {
     margin-top: -10px;
 }
 
-.gradback{
-    background: linear-gradient(to right, #E94057, #274376);
-    padding: 0 0 100px 0;
-}
+/* Index Hero Styling */
 
 .gradback  h1, .gradback h2 {
     color: white;
     text-align: center;
+
 }
 
 .picback {
-    background-image: url("/img/mountaincropfade.webp");
+    background: url("/img/gradback.png");
     background-position: center center;
     background-size: cover;
     padding: 0 0 200px 0;
@@ -143,12 +145,17 @@ h1, h2, .frame {
     text-align: center;
 }
 
+.picback h1 {
+    margin-top: 100px;
+}
+
 .cardstack {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 30px;
     margin-bottom: 60px;
     max-width: 1200px;
 }
@@ -158,12 +165,12 @@ h1, h2, .frame {
     justify-content: center;
     align-items: flex-start;
     max-width: 550px;
-    max-height: 500px;
+    max-height: 340px;
     overflow: hidden;
     box-shadow: 3px 3px 8px 0 rgba(0,0,0,0.2);
     border-radius: 3px;
     margin: 20px;
-    background-color: #00C9FF;
+    background-color: #1CB5E0;
 
 }
 
@@ -188,6 +195,7 @@ h1, h2, .frame {
 
 .card h3 {
     color: white;
+    text-shadow: 3px 3px #193770;
     font-size: 42px;
     line-height: 1.3;
 }
@@ -247,7 +255,9 @@ img {
 }
 
 img.feature {
-    max-width: 1200px;
+    width: 90%;
+    height: auto;
+    max-width: 1000px;
 }
 
 .white {
@@ -263,12 +273,10 @@ img.feature {
 }
 
 footer {
-    padding: 1rem 9999rem;
-    background-color: #192B4C;
-    margin: 0rem -9999rem -2rem;
+    background: linear-gradient(-1350deg, #000046 0%, #1CB5E0 100%);
     overflow: hidden;
     color: white;
-    box-shadow: 0 50vh 0 50vh #192B4C;
+    box-shadow: 0 50vh 0 50vh #2A5C90;
 }
 
 footer a {
@@ -294,32 +302,7 @@ footer li {
 }
 
 footer li:hover {
-    background-color: #f9585b;
-}
-
-
-.buttonred {
-    background-color: #f9585b;
-    border: none;
-    color: white;
-    padding: 15px 30px;
-    margin: 15px 0; 
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1.7;
-    border-radius: 3px;
-    box-shadow: 4px 4px 6px rgba(0,0,0,0.4);
-}
-
-.buttonred:hover {
-    transition: 0.2s ease-in-out;
-    box-shadow: 4px 4px 6px rgba(0,0,0,0.6);
-    background-color: #fa8f91;
-    cursor: pointer;
+    background-color: #193770;
 }
 
 /* Hamburger Menu */
