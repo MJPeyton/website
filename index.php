@@ -28,63 +28,85 @@ nav a {
 <h1 style="text-shadow: 3px 3px 6px #000000;">Hi, I'm Matt.</h1>
 <h2 style="font-weight: 100; text-shadow: 3px 3px 6px #000000;">I use design and data to communicate big ideas.</h2>
 </div>
-<div class="dotback">
-	<div class="cardstack">
-		<div class="card" data-aos="fade-up">
-			<div class="redimg">
-			<a href="/northwestern_web.php"><img src="/img/mschomecapture.png"></a>
-			</div>
-			<div class="cardtext">
-				<h3>Website Redesign</h3>
-				<a href="/northwestern_web.php" class="buttonred" style="text-align: center;">View Project</a>
-			</div>
-		</div>
 
-		<div class="card" data-aos="fade-up">
-			<div class="cardtext">
-				<h3>Admissions Dashboard</h3>
-				<p>I designing an intuitive dashboard that allows stakeholders to independently parse the information they need quickly.</p>
-				<a href="/dashboard.php" class="buttonblue" style="text-align: center;">View Project</a>
-			</div>
-			<div class="blueimg">
-			<a href="/dashboard.php"><img src="/img/funnel.png"></a>
-			</div>
-		</div>
+<h2 style="text-align: center; font-size: 48px;">Professional Work</h2>
 
-		<div class="card" data-aos="fade-up">
-			<div class="redimg">
-			<a href="/survey.php"><img src="/img/survey.png"></a>
-			</div>
-			<div class="cardtext">
-				<h3>Interactive Survey Report</h3>
-				<p>I created an interactive dashboard for the dean's office to explore the results of a school-wide graduate student survey.</p>
-				<a href="/survey.php" class="buttonred" style="text-align: center;">View Project</a>
-			</div>
-		</div>
+<div class="cardstack">
 
-		<div class="card" data-aos="fade-up">
-			<div class="cardtext">
-				<h3>Drip Email Campaigns</h3>
-				<p>I drafted, designed, and implemented a drip email campaign to increase yield at various points in the admissions process.</p>
-				<a href="/drips.php" class="buttonblue" style="text-align: center;">View Project</a>
+	<a href="/northwestern_web.php">
+			<div class="card" data-aos="fade-up" href="/dashboard.php">
+				<img class="cardimg" src="/img/tabdashboard.png">
+				<div class="cardtext">
+					<h3>Admissions Dashboard</h3>
+					<p>View Project ><p>
+				</div>
 			</div>
-			<div class="blueimg">
-			<a href="/drips.php"><img src="/img/drip.png"></a>
-			</div>
-		</div>
+		</a>
 
-				<div class="card" data-aos="fade-up">
-			<div class="redimg">
-			<a href="/d3vis.php"><img src="/img/graph.png"></a>
+		<a href="/northwestern_web.php">
+			<div class="card" data-aos="fade-up" href="/survey.php">
+				<img class="cardimg" src="/img/gradanalysiscomp.png">
+				<div class="cardtext">
+					<h3>Interactive Survey Report</h3>
+					<p>View Project ><p>
+				</div>
 			</div>
-			<div class="cardtext">
-				<h3>D3 Visualizations</h3>
-				<p>I have begun learning how to create data visualizations in D3.</p>
-				<a href="/d3vis.php" class="buttonred" style="text-align: center;">View Project</a>
+		</a>
+
+	<a href="/northwestern_web.php">
+			<div class="card" data-aos="fade-up" href="/northwestern_web.php">
+				<img class="cardimg" src="/img/mschomecapture.png">
+				<div class="cardtext">
+					<h3>Similar Cities Poster</h3>
+					<p>View Project ><p>
+				</div>
 			</div>
-		</div>
+		</a>
+
+		<a href="/northwestern_web.php">
+			<div class="card" data-aos="fade-up" href="/northwestern_web.php">
+				<img class="cardimg" src="/img/mschomecapture.png">
+				<div class="cardtext">
+					<h3>Website Redesign</h3>
+					<p>View Project ><p>
+				</div>
+			</div>
+		</a>
+
+<h2 style="text-align: center; font-size: 48px;">Professional Work</h2>
+
+		<a href="/northwestern_web.php">
+			<div class="card" data-aos="fade-up" href="/northwestern_web.php">
+				<img class="cardimg" src="/img/nbavis.png">
+				<div class="cardtext">
+					<h3>NBA Trade Network</h3>
+					<p>View Project ><p>
+				</div>
+			</div>
+		</a>
+
+		<a href="/northwestern_web.php">
+			<div class="card" data-aos="fade-up" href="/northwestern_web.php">
+				<img class="cardimg" src="/img/sotuvis.png">
+				<div class="cardtext">
+					<h3>State of the Union Text</h3>
+					<p>View Project ><p>
+				</div>
+			</div>
+		</a>
+
+		<a href="/northwestern_web.php">
+			<div class="card" data-aos="fade-up" href="/northwestern_web.php">
+				<img class="cardimg" src="/img/ctavis.png">
+				<div class="cardtext">
+					<h3>CTA Bus Routes</h3>
+					<p>View Project ><p>
+				</div>
+			</div>
+		</a>
+
 		
-	</div>
+
 </div>
 <script>
 var $hamburger = $(".hamburger");
