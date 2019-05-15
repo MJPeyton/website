@@ -16,6 +16,7 @@
   <h2>Using census data and Euclidean Distance, I attempted to find out what cities were most like Evanston, IL.</h2>
   <a href="https://github.com/MJPeyton/Evanston_Data_Contest" target="new"><img class="feature" data-aos="zoom-in"src="/img/EvPoster.png" alt="Redesign"></a>
   <p>The full code and R script files can be <a href="https://github.com/MJPeyton/Evanston_Data_Contest" target="new">found on my Github.</a>
+  <p>I also did a ton of data exploration before I landed on this as the question I wanted to answer. <a href="/evanston_scratch.php">You can see all the ugly R work here.</a>
       </div>
             <script>
               var $hamburger = $(".hamburger");
