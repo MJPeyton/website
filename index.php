@@ -93,9 +93,9 @@ nav a {
 			</div>
 		</a>
 
-		<a href="/northwestern_web.php">
+		<a href="/cta.php">
 			<div class="card" data-aos="fade-up">
-				<img class="cardimg" src="/img/ctavis.png">
+				<img class="cardimg" src="/img/cta_graphic.png">
 				<div class="cardtext">
 					<h3>CTA Bus Routes</h3>
 					<p>View Project ><p>
