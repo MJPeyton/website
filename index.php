@@ -73,7 +73,7 @@ nav a {
 			</div>
 		</a>
 
-		<a href="/northwestern_web.php">
+		<a href="/NBA.php">
 			<div class="card" data-aos="fade-up">
 				<img class="cardimg" src="/img/nbavis.png">
 				<div class="cardtext">
@@ -83,7 +83,7 @@ nav a {
 			</div>
 		</a>
 
-		<a href="/northwestern_web.php">
+		<a href="/SOTU.php">
 			<div class="card" data-aos="fade-up">
 				<img class="cardimg" src="/img/sotuvis.png">
 				<div class="cardtext">

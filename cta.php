@@ -1,10 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+    .box1 {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: lightblue;
+        padding: 5px 10px;
+        width: 310px;
+        text-align: center;
+        color: black;
+    }
+    
+    .box2 {  
+      display: block;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #f7c5ba;
+        padding: 5px 10px;
+        width: 310px;
+        text-align: center;
+    }
+    
+    </style>
 <!-- Begin head.php INCLUDE -->
 <?php require_once ('head.php'); ?>
 <!-- End head.php INCLUDE -->
-  <title>Evanston Data Project</title>
+  <title>CTA Bus Ridership</title>
 </head>
 <header class="header-container">
   <!-- Begin nav.php INCLUDE -->
@@ -16,15 +39,16 @@
 <p>These charts show the average ridership by month for each Chicago Transit Authority bus line in light purple. The dark blue line represents the route with the most growth, while the red line represents the route with the largest decline. </p>
                 <p>Zoom in and out either by scrolling on the top chart or adjusting the edges of the bottom chart to get a more detailed look at a time period.</p>
                 
-                <div id="box1">
-                    <h3>Route 146: +XX%</h3>
+                <div class="box2">
+                    <h3 style="color: black;">Route 9</h3>
+                </div>
+                <div class="box1">
+                    <h3 style="color: black;">Route 146</h3>
                 </div>
                 
-                <div id="box2">
-                    <h3>Route 9: -X%</h3>
-                </div>
 
-<?php require_once ('D3/CTA/cta_chart.php'); ?>
+
+<?php require_once ('d3/CTA/cta_chart.php'); ?>
 
             <script>
               var $hamburger = $(".hamburger");

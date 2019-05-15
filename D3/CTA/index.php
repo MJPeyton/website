@@ -7,26 +7,26 @@
         pointer-events: all;
     }
     
-    svg, wrapper {
+    svg {
         display: block;
         margin: 0 auto;
     }
     
     #box1 {
-        display: inline-block;
+        display: block;
         background-color: lightblue;
         padding: 5px 10px;
         width: 310px;
         text-align: center;
-    }
+        }
     
     #box2 {  
-        display: inline-block;
+        display: block;
         background-color: #f7c5ba;
         padding: 5px 10px;
         width: 310px;
         text-align: center;
-    }
+        }
     
     select {
         height: 25px;
