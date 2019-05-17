@@ -19,7 +19,7 @@
   <!-- End nav.php INCLUDE -->
 </header>
 <body>
-<h1 style="text-align: center;">SOTU</h1>
+<h1 style="text-align: center;">State of the Union Text Analysis</h1>
 <p>An examination of vocabulary by party from 1981-2018</p>
 
 

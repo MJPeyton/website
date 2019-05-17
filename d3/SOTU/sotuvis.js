@@ -81,7 +81,7 @@ svg.append('line')
 svg.append("text")
 	.attr("class", "label")
 	.attr("transform", "rotate(-45, 525, -880)" )
-	.text("Even Rate of Useage");
+	.text("Even Rate of Use");
 
 // draw dots
 svg.selectAll(".dot")
