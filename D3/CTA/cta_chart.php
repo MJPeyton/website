@@ -83,7 +83,7 @@
                 .attr("class", "context")
                 .attr("transform", "translate(" + margin2.left + "," + margin2.top + ")");
                 
-                d3.csv("/D3/CTA/route_data.csv", function(d) {
+                d3.csv("d3/CTA/route_data.csv", function(d) {
                     d.date = parseTime(d.date);
                     d.rides = +d.rides;
                     return d;

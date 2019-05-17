@@ -24,8 +24,8 @@ nav a {
 		<!-- End nav.php INCLUDE -->
 	</header>
 	<body>
-		<h1 style="text-shadow: 3px 3px 6px #000000;">Hi, I'm Matt.</h1>
-		<h2 style="font-weight: 100; text-shadow: 3px 3px 6px #000000;">I use design and data to communicate big ideas.</h2>
+		<h1 style="text-shadow: 3px 3px 6px #000046;">Hi, I'm Matt.</h1>
+		<h2 style="font-weight: 100; text-shadow: 3px 3px 6px #000046;">I use design and data to communicate big ideas.</h2>
 </div>
 
 <br>

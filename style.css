@@ -1,13 +1,3 @@
-/* Colors
-red: #CA473D
-blue: #214B5F
-teal: #3B7C87
-yellow: #F7C96A
-dark gray: #333333
-med gray: #5A5A5A
-light gray: #B1AFAF
-bg gray: #F5F5F5
-*/
 .navBar {
     max-width: 3000px;
     margin-left: auto;
@@ -82,8 +72,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     overflow-x: hidden;
-    background-image: url("/img/dots.webp"); 
-    background-repeat: repeat;
+    background-color: #F9F9F9;
+    background: linear-gradient(90deg, white 20px, transparent 1%) center, linear-gradient(white 20px, transparent 1%) center, #b9b9b949;
+    background-size: 22px 22px;
+
 }
 
 p, ul, li, h3, h4, h5, h6 {
@@ -167,7 +159,7 @@ h1, h2, .frame {
     max-width: 550px;
     max-height: 340px;
     overflow: hidden;
-    box-shadow: 3px 3px 8px 0 rgba(0,0,0,0.2);
+    border: 1px solid #b9b9b9;
     border-radius: 3px;
     margin: 20px;
     background-color: #1CB5E0;
@@ -214,9 +206,10 @@ h1, h2, .frame {
   }
 
 
-h1, h3, h5 {
+h1, h2, h3, h4, h5 {
     font-style: normal;
     font-weight: 700;
+    color: #000046;
 }
 
 h1 {
@@ -233,7 +226,7 @@ h2 {
 h3 {
     font-size: 1.4rem;
     line-height:1.4rem;
-    color: #274376;
+    color: #000046;
 }
 
 h4, h5, h6 {
