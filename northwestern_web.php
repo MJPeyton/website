@@ -20,7 +20,7 @@
   <div class="dark" data-aos="fade-up">
               <h3>Results</h3>
               <p>Since its launch, the new site has seen a 60% increase in time spent on site with a 30% decrease in bounce rate. Pages viewed per session also increased by 54%.</p>
-              <img style="max-width: 800px;" src="/img/bouncerate.png" alt="Bounce rate between old website and new"/>
+              <img style="max-width: 800px;" data-aos="zoom-in" src="/img/bouncerate.png" alt="Bounce rate between old website and new"/>
             </div>
   <div data-aos="fade-up">
   <h3>Challenges</h3>
@@ -39,13 +39,13 @@
       <p>Furthermore, the side menu navigation didn’t expand and collapse to reveal the architecture of the site, and instead required clicks to a page to reveal the subpages available.</p>
       <p>Finally, the url to our pages was http://www.communication.northwestern.edu/programs/ms_communication. While we could mask this for our homepage with a redirect from a shorter url, sharing internal pages was a headache.</p>
       <p>After a long negotiation with the web development team, we were able to move the program’s site to its own domain with our own menu structure.</p>
-      <img src="/img/New MSC Menu.png" alt="Top Menu for new MSC website"/>
+      <img src="/img/New MSC Menu.png" data-aos="zoom-in" alt="Top Menu for new MSC website"/>
       <p>Through the top menu bar and the choice in lockup, we were able to demonstrate our relationship to the School of Communication while serving our prospective students better. We were also able to move the site to its own domain at http://msc.northwestern.edu.</p>
     </div>
     <div data-aos="fade-up">
     <h3>Information Architecture</h3>
     <p>The first sign that the site’s architecture was a problem was when I stumbled upon a FAQ page that listed 39 questions linking to long answers. These questions, which were very clearly central to a prospective student’s decision to attend our program, should have been answered in a clear way across the website. Otherwise, what was the point?</p>
-    <img src="/img/Old-MSC-FAQ.png" alt="Old MSC site FAQ list of 39 items"/>
+    <img src="/img/Old-MSC-FAQ.png" data-aos="zoom-in" alt="Old MSC site FAQ list of 39 items"/>
     <p>In discovering an architecture that worked for our site, we relied on three main sources. 
       <ul>
         <li>The first was a combination of the FAQs listed above, as well as questions that frequently came up in the staff’s conversations with prospective students. 

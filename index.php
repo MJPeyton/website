@@ -35,7 +35,7 @@ nav a {
 <div class="cardstack">
 	<a href="/dashboard.php">
 			<div class="card" data-aos="fade-up">
-				<img class="cardimg" src="/img/tabdashboard.png">
+				<img class="cardimg" src="/img/dashboard-chart.png">
 				<div class="cardtext">
 					<h3>Admissions Dashboard</h3>
 					<p>View Project ><p>
@@ -68,6 +68,16 @@ nav a {
 				<img class="cardimg" src="/img/mschomecapture.png">
 				<div class="cardtext">
 					<h3>Website Redesign</h3>
+					<p>View Project ><p>
+				</div>
+			</div>
+		</a>
+
+		<a href="/presentations.php">
+			<div class="card" data-aos="fade-up">
+				<img class="cardimg" src="/img/PPT-cover.png">
+				<div class="cardtext">
+					<h3>Building Effective Presentations</h3>
 					<p>View Project ><p>
 				</div>
 			</div>

@@ -20,14 +20,28 @@
   <p>One of my first tasks was to design a dashboard that showed the program’s current admissions numbers though the funnel while also comparing to previous years for context. I also added filters so that everyone from the director and to student service staff members could easily compare numbers for different populations.
   <div class="dark" data-aos="fade-up">
               <h3>Results</h3>
-              <p>The accessible and easy to use dashboard increased transparency for admissions numbers across the entire staff and greatly reduced the number of custom reports needed.</p>
-              <img src="/img/admissionsdash.png" alt="Tableau admissions dashboard"/>
+              <p>The accessible pand easy to use dashboard increased transparency for admissions numbers across the entire staff and greatly reduced the number of custom reports needed.</p>
+              <img src="/img/dashboard-stealth.png" alt="Tableau admissions chart"/>
             </div>
-            <div class="gray" data-aos="fade-up">
-  <h3>Class Makeup</h3>
-  <p>While the dashboard's main purpose is to offer a view of how the admissions cycle is progressing, we also decided it would be beneficial to examine how the makeup of the class looked throughout the year.</p>
-  <p>I put together a dynamic page that refreshed daily to show the dynamics of the class so far so we could make better decisions regarding marketing targeting.</p>
-  <img src="/img/classmakeup.png" alt="Tableau class makeup dashboard" style="width: 600px;"/>
+  <div data-aos="fade-up">
+  <h3>Dynamic Print Document</h3>
+  <p>While the dashboard's main purpose is to offer a view of how the admissions cycle is progressing, I also decided it would be beneficial to examine how the makeup of the class looked throughout the year.</p>
+  <p>I put together a dynamic page that refreshed daily to show the dynamics of the class so far so we could make better decisions regarding marketing targeting. This was formatted in letter size so it could be printed and brought to meetings with stakeholders who weren't accessing our dashboard regularly.</p>
+  <img src="/img/classmakeup.png" alt="Tableau class makeup dashboard" style="width: 650px;"/>
+  <br>
+</div>
+<div class="gray" data-aos="fade-up">
+  <h3>Campaign Efficiency</h3>
+  <p>With so many campaigns running at one time, as well as campaigns being started and stopped seasonally, it was important to me to create a view that looked at the whole picture of campaign efficiency.</p>
+  <p>This chart shows not only the number and relative cost of each prospect, but also the average engagement of each channel, to see where we should be spending more money.</p>
+<img src="/img/dashboard-campaign.png" alt="Tableau class makeup dashboard"/>
+<br>
+</div>
+<div data-aos="fade-up">
+  <h3>Heatmap</h3>
+  <p>In order to fight a false perception of when prospects entered our funnel, I created a heatmap looking at six years of data to show that there was no overall pattern.</p>
+<img src="/img/dashboard-heat.png" alt="Tableau class makeup dashboard"/>
+<br>
 </div>
   
             <script>
