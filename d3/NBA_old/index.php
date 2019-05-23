@@ -25,21 +25,14 @@
     
 </style>
 <body>
-
     <script>
         
         var width = 1400,
         height = 1000
-
-        var svg = d3.select("div#container")
-        .append("svg")
-        .attr("preserveAspectRatio", "xMinYMin meet")
-        .attr("viewBox", "0 0 1500 1500")
-        .classed("svg-content", true);
         
-        /* var svg = d3.select("body").append("svg")
+        var svg = d3.select("body").append("svg")
         .attr("width", width)
-        .attr("height", height); */
+        .attr("height", height);
         
         var color = d3.scale.ordinal()
         .domain([
@@ -120,7 +113,7 @@
         var force = d3.layout.force()
         .gravity(0.1)
         .distance(150)
-        .charge(-1500)
+        .charge(-1000)
         .size([width, height]);
         
         d3.json("d3/NBA/teams.json", function(json) {
@@ -133,30 +126,22 @@
             .data(json.links)
             .enter().append("line")
             .attr("class", "link")
-            .style("stroke-width", function(d) { return Math.sqrt(d.weight*20); });
+            .style("stroke-width", function(d) { return Math.sqrt(d.weight*10); });
             
             var node = svg.selectAll(".node")
             .data(json.nodes)
             .enter().append("g")
             .attr("class", "node")
             .call(force.drag);
-
+            
             node.append("circle")
-            .attr("r","28")
+            .attr("r","12")
             .attr("id", function(d) { return d.name })
             .style("fill", function(d) { return color(d.index); });
-
-            // Append images
-            var images = node.append("svg:image")
-                    .attr("href",  function(d) { return d.img;})
-                    .attr("x", function(d) { return -25;})
-                    .attr("y", function(d) { return -25;})
-                    .attr("height", 50)
-                    .attr("width", 50);
             
             node.append("text")
             
-            .attr("dx", 30)
+            .attr("dx", 15)
             .attr("dy", ".35em")
             .text(function(d) { return d.name });
             

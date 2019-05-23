@@ -5,26 +5,6 @@
 <?php require_once ('head.php'); ?>
 <!-- End head.php INCLUDE -->
   <title>NBA Trade Network</title>
-  <style>
-    /*svg {
-      display: block;
-      margin: auto;
-    } */
-
-    .container {
-    display: inline-block;
-    position: relative;
-    width: 90%;
-    vertical-align: middle;
-    overflow: hidden;
-}
-
-.svg-container {
-  margin-bottom: -30%;
-}
-
-
-  </style>
 </head>
 <header class="header-container">
   <!-- Begin nav.php INCLUDE -->
@@ -32,11 +12,9 @@
   <!-- End nav.php INCLUDE -->
 </header>
 <body>
-<h1 style="text-align: center;">NBA Trade Network - 2</h1>
+<h1 style="text-align: center;">NBA Trade Network</h1>
 <h2 style="text-align: center;">2017-2018 Season</h2>
 <p>This is a basic d3.js network showing the NBA teams who traded with each other in 2017-2018.</p>
-
-<div id="container" class="svg-container"></div>
 
 <?php require_once ('d3/NBA/index.php'); ?>
 
