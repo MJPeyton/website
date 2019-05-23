@@ -14,8 +14,7 @@
 <body>
 <img data-aos="zoom-in" style="width: 300px; height: 300px; box-shadow: none; display: block; margin-right: auto; margin-left: auto;" src="/img/headshot.png">
 <h1 style="text-align: center;">Hi, I'm Matt Peyton</h1>
-<h2>I am a marketer who connects people with the tools they need to become successful.</h2>
-<p>Throughout my career some of those tools have been literal, like cranes and heavy construction equipment, while others have been figurative, like a master’s degree from Northwestern University. No matter the setting, I have succeeded in educating prospective customers about complex products that represent a significant investment.</p>
+<h2>I use R, Tableau, SQL, and other tools to analyze, visualize, and effectively-communicate data.</h2>
 <div class="frame">	
 <div class="gray" data-aos="fade-up">
 <div class="grid">
@@ -27,12 +26,7 @@
 <h3 style="color: #4E2A84; line-height: 1.3; font-size: 20px; margin-top: -10px;">Northwestern University</h3>
 <h3 style="color: #4E2A84; line-height: 1.3; font-size: 18px; margin-top: -10px;">2017 - Present</h3>
 
-<p>Courses include:
-<ul>
-<li>Effective Communication</li>
-<li>Information Design and Architecture</li>
-<li>User Research</li>
-</ul>
+<p>This degree focuses on translating information and data into meaningful visualizations, narratives, and interfaces.</p>
 </br>
 <h3 style="color: #990000;">BA English and Journalism</h3>
 <h3 style="color: #990000; line-height: 1.3; font-size: 20px; margin-top: -10px;">Indiana University</h3>
